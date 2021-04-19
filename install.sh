@@ -6,7 +6,7 @@ if [[ "$(id -u)" -ne 0 ]]; then
    echo "Please, run this program as root!"
    exit 1
 fi
-
+printf '\033]2;Installing Big-Tool\a'
 clear
 echo "installing..."
 sleep 1
