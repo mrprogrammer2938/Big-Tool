@@ -40,6 +40,7 @@ def mein3():
    else:
        usage3()
 def usage():
+    os.system("printf '\033]2;Big-Tool\a'")
     cls()
     print(color.green + """
        /$$$$$$$  /$$                /$$$$$$$$                  /$$
@@ -81,6 +82,7 @@ def usage():
         else:
             usage()
 def usage2():
+    os.system("printf '\033]2;Big-Tool/Installing packages\a'")
     cls()
     print("1.nmap")
     print("2.Aircrack-ng")
@@ -158,12 +160,14 @@ def usage2():
     else:
         usage2()
 def usage3():
+    os.system("printf '\033]2;Big-Tool/Update package\a'")
     cls()
     os.system("figlet Big-Tool")
     choose3 = str(input("\nEnter your package name: "))
     os.system("sudo apt-get update " + choose3)
     main2()
 def usage4():
+   printf '\033]2;Big-Tool/Uninstall package\a'
    cls()
    os.system("figlet Big-Tool")
    choose4 = str(input("\nEnter your package name: "))
