@@ -25,6 +25,7 @@ apt install python3
 apt install python
 apt install python3-pip
 pip install requirments.txt
+chmod +x tools
 echo ""
 echo "finish!"
 echo ""
