@@ -17,6 +17,11 @@ Big-Tool package:
 
 The install.sh file runs with root !
 
+### run root...
+```
+sudo su
+```
+
 **installing**
 ```
 git clone https://github.com/msprogrammer2938/Big-Tool.git
@@ -26,11 +31,6 @@ cd Big-Tool
 bash install.sh
 
 ./tools
-```
-
-run Root...
-```
-sudo su
 ```
 
 ### Scr
