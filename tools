@@ -167,7 +167,7 @@ def usage3():
     os.system("sudo apt-get update " + choose3)
     main2()
 def usage4():
-   printf '\033]2;Big-Tool/Uninstall package\a'
+   ("printf '\033]2;Big-Tool/Uninstall package\a'")
    cls()
    os.system("figlet Big-Tool")
    choose4 = str(input("\nEnter your package name: "))
