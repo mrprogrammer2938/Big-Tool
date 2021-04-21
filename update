@@ -1,0 +1,36 @@
+#!/usr/bin/python3
+# This code write by (Ms.nope)
+# update big-Tool
+'''
+imports
+'''
+import os
+import time
+import sys
+def cls():
+    os.system("clear")
+def menu():
+    cls()
+    print("""
+     ____  _           _____           _ 
+    | __ )(_) __ _    |_   _|__   ___ | |
+    |  _ \| |/ _` |_____| |/ _ \ / _ \| |
+    | |_) | | (_| |_____| | (_) | (_) | |
+    |____/|_|\__, |     |_|\___/ \___/|_|
+             |___/ """)
+    print("\nupdateing...")
+    time.sleep(2)
+    os.system("cd .. && sudo rm -r Big-Tool && cd .. && git clone https://github.com/msprogrammer2938/Big-Tool && cd Big-Tool && bash install.sh")
+    time.sleep(1)
+    print("The Big-Tool has updated!")
+    exit(1)
+if sys.platform == 'win32':
+  print("\nThis programm run has linux!")
+  exit(1)
+if __name__ == "__main__":
+    try:
+        menu()
+    except KeyboardInterrupt:
+        print("\nExiting...")
+        time.sleep(0.25)
+        exit()
