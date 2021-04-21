@@ -18,7 +18,7 @@ def menu():
     | |_) | | (_| |_____| | (_) | (_) | |
     |____/|_|\__, |     |_|\___/ \___/|_|
              |___/ """)
-    print("\nupdateing...")
+    print("\nupdating...")
     time.sleep(2)
     os.system("cd .. && sudo rm -r Big-Tool && git clone https://github.com/msprogrammer2938/Big-Tool && cd Big-Tool && bash install.sh")
     time.sleep(1)
