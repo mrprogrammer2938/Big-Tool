@@ -20,7 +20,7 @@ def menu():
              |___/ """)
     print("\nupdateing...")
     time.sleep(2)
-    os.system("cd .. && sudo rm -r Big-Tool && cd .. && git clone https://github.com/msprogrammer2938/Big-Tool && cd Big-Tool && bash install.sh")
+    os.system("cd .. && sudo rm -r Big-Tool && git clone https://github.com/msprogrammer2938/Big-Tool && cd Big-Tool && bash install.sh")
     time.sleep(1)
     print("The Big-Tool has updated!")
     exit(1)
