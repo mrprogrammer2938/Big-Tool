@@ -34,6 +34,8 @@ bash install.sh
 ```
 ## update Big-Tool
 ```
+cd Update
+
 ./update
 ```
 
