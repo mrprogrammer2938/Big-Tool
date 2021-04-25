@@ -44,3 +44,6 @@ cd Update
 
 ## [Ms.nope](https://github.com/msprogrammer2938) Account...
 [Instagram](https://instagram.com/programmer2938)
+
+### LICENSE
+[Mit LICENSE](https://github.com/msprogrammer2938/Big-Tool/blob/master/LICENSE)
