@@ -27,7 +27,8 @@ apt install python3-pip
 pip install requirments.txt
 chmod +x tools
 chmod +x uninstall
-cd Update && chmod +x update
+cd Update && chmod +x update && cd ..
+cp tools /usr/share/
 echo ""
 echo "finish!"
 echo ""
