@@ -1,9 +1,10 @@
 #!/usr/bin/bash
 # This code write by (Ms.nope)
-# installing
+# installing Big-Tool
 if [[ "$(id -u)" -ne 0 ]]; then
    echo ""
    echo "Please, run this program as root!"
+   echo ""
    exit 1
 fi
 printf '\033]2;Installing Big-Tool\a'
@@ -30,8 +31,8 @@ chmod +x uninstall
 cd Update && chmod +x update && cd ..
 cp tools /usr/share/
 echo ""
-echo "finish!"
+echo "Finish installing!..."
 echo ""
 echo "usage:
-       ./tools"
+       ./tools {To Run}"
 exit 1
