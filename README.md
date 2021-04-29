@@ -22,7 +22,7 @@ The install.sh file runs with root !
 sudo su
 ```
 
-**installing**
+**installing...**
 ```
 git clone https://github.com/msprogrammer2938/Big-Tool.git
 
