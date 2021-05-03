@@ -1,0 +1,12 @@
+Installing Big-Tool:
+                       bash install.sh
+                       ./bigtool
+
+
+Update Big-Tool:
+                 cd Update
+                  
+                 ./update 
+
+Uninstalling Big-Tool:
+                         ./uninstall
