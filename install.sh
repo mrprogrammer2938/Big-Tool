@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-# This code write by (Ms.nope)
+# This code write by (Mr.nope)
 # installing Big-Tool
 if [[ "$(id -u)" -ne 0 ]]; then
    echo ""
