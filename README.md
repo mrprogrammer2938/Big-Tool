@@ -24,7 +24,7 @@ sudo su
 
 **installing...**
 ```
-git clone https://github.com/msprogrammer2938/Big-Tool.git
+git clone https://github.com/mrprogrammer2938/Big-Tool.git
 
 cd Big-Tool
 
