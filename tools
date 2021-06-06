@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-# This code write by (Ms.nope)
-# version 1
+# This code write by (Mr.nope)
+# version 1.2.0
 '''
 import
 '''
@@ -55,7 +55,7 @@ def usage():
                     |  $$$$$$/                                    
                      \______/ 
                      """ + color.blue + """
-        ---------[ Ms.nope Github: """ + color.red + "https://github.com/msprogrammer2938 " + color.blue + "]--------" + color.End)
+        ---------[ Ms.nope Github: """ + color.red + "https://github.com/mrprogrammer2938 " + color.blue + "]--------" + color.End)
     print("\n{1}.Installing package")
     print("{2}.Update package")
     print("{3}.Uninstall package")
@@ -78,8 +78,8 @@ def usage():
     else:
         cls()
         print(choose + color.red + " Not Found!" + color.End)
-        try2 = str(input("press Enter..."))
-        if(str(try2) == ''):
+        try2 = input("press Enter...")
+        if try2) == ''):
           usage()
         else:
             usage()
